@@ -16,7 +16,8 @@
     "test:integration": "jest --config ./tests/jest-e2e.json --runInBand",
     "test:integration:dev": "jest --config ./tests/jest-e2e.json --runInBand --watch",
     "prerelease": "npm run build",
-    "release": "release-it"
+    "release": "release-it",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@apollo/federation": "0.23.0",
